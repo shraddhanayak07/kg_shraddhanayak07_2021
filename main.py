@@ -1,7 +1,6 @@
 import sys
 
 def checkMapping(s1, s2):
-	print("Received Command Line Arguments, s1:  "+str(s1)+", s2: "+str(s2))
 	if len(s1) != len(s2):
         	return False    #One to One mapping is not possible when length are different
 	dic = {}                                #Created a dictonary to store character mappings
